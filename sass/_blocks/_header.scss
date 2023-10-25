@@ -1,0 +1,46 @@
+.header {
+  text-transform: uppercase;
+  padding: 5px 0 18px;
+  border-bottom: 1px solid $border-color;
+  a {
+    color: $white-1;
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}
+.header__top {
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid $border-color;
+  margin: 0 0 18px 0;
+  font-size: $font-size-14;
+}
+.header__top-container {
+  @include space-between;
+}
+.header__lang-list {
+  @include flex-list(10px);
+}
+.header__bottom-container {
+  @include space-between;
+}
+.header__list {
+  @include flex-list(35px);
+}
+.header__socials {
+  @include flex-list(30px);
+}
+.header__socials-link:last-child {
+  padding: 3px 3px 0 0;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: $hover-color;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+  }
+}

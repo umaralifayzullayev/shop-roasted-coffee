@@ -1,0 +1,10 @@
+@mixin space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-list($column-gap) {
+  display: flex;
+  align-items: center;
+  column-gap: $column-gap;
+}
