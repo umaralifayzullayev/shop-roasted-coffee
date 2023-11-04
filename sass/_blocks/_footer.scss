@@ -1,0 +1,17 @@
+.footer {
+  padding: 78px 0 70px;
+  border-top: 2px solid #14141d;
+}
+.footer__container {
+  display: flex;
+  column-gap: 250px;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.footer__link {
+  color: #fff;
+  text-transform: uppercase;
+}

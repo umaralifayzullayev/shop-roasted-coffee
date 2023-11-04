@@ -5,19 +5,16 @@ html {
   min-width: 100%;
   scroll-behavior: smooth;
 }
-
 * {
   padding: 0px;
   margin: 0px;
   border: none;
 }
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
 body {
   line-height: 1;
   height: 100%;
@@ -25,18 +22,15 @@ body {
   min-height: 100%;
   min-width: 100%;
 }
-
 ol,
 ul,
 li {
   list-style: none;
   list-style-type: none;
 }
-
 table {
   border-collapse: collapse;
 }
-
 img,
 svg,
 video,
@@ -48,7 +42,6 @@ object {
   display: block;
   max-width: 100%;
 }
-
 a,
 ins {
   text-decoration: none;
