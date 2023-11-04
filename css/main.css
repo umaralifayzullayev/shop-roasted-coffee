@@ -416,7 +416,7 @@ body {
 .header {
   text-transform: uppercase;
   padding: 5px 0 18px;
-  border-bottom: 1px solid #32323D;
+  border-bottom: 1px solid #32323d;
 }
 .header a {
   color: #ffffff;
@@ -427,7 +427,7 @@ body {
 
 .header__top {
   padding: 0 0 5px 0;
-  border-bottom: 1px solid #32323D;
+  border-bottom: 1px solid #32323d;
   margin: 0 0 18px 0;
   font-size: 14px;
 }
@@ -556,7 +556,7 @@ body {
 .banner__container:before {
   position: absolute;
   content: "";
-  background-image: url(../../images/banner/before.png);
+  background-image: url(../images/banner/before.png);
   width: 600px;
   height: 330px;
   left: 0;
